@@ -1,0 +1,32 @@
+{
+  "business": {
+    "name": "Amber Einstein Tutoring",
+    "tagline": "Confidence Changes Everything",
+    "mission": "Faith. Family. Students. Brighter Tomorrows.",
+    "email": "AmberEinsteinTutoring@gmail.com",
+    "pillars": ["Math", "Test Prep", "Academic Support", "Life Skills"],
+    "newRatesEffective": "December 1st"
+  },
+  "lead": {
+    "_comment": "No backend required. Uses FormSubmit (https://formsubmit.co) AJAX to forward submissions to the email. The FIRST submission triggers a one-time activation email that the owner must confirm. If FormSubmit is unreachable, the site falls back to opening the visitor's mail client (mailto).",
+    "endpoint": "https://formsubmit.co/ajax/AmberEinsteinTutoring@gmail.com",
+    "subject": "New Inquiry — Amber Einstein Tutoring Website",
+    "successMessage": "Thank you! Your inquiry has been sent to Amber Einstein Tutoring. You'll hear back soon. \u2665",
+    "errorMessage": "We couldn't send automatically. Opening your email app as a backup…"
+  },
+  "packages": [
+    { "id": "one-to-one", "name": "1:1 Private Session", "price": "$90", "unit": "per hour" },
+    { "id": "weekly", "name": "Weekly Support", "price": "$120", "unit": "per week", "mostPopular": true },
+    { "id": "premium", "name": "Premium Support", "price": "$150", "unit": "per week" }
+  ],
+  "loyaltyRates": [
+    { "name": "1:1", "price": "$80", "unit": "per hour" },
+    { "name": "Weekly", "price": "$110", "unit": "per week" },
+    { "name": "Premium", "price": "$140", "unit": "per week" }
+  ],
+  "additionalServices": [
+    { "name": "Test Prep", "price": "$125 per hour", "detail": "Standardized test preparation (EOC, ISEE, SSAT, etc.)" },
+    { "name": "College-Level Test Prep", "price": "$150 per hour", "detail": "SAT · ACT · PERT — college admission exams" },
+    { "name": "Specialized Academic Support", "price": "+$20", "detail": "Individualized accommodations or additional instructional support" }
+  ]
+}
